@@ -1,0 +1,10 @@
+#!/bin/bash -l
+
+#Enable bash history
+HISTFILE=/root/.bash_history
+set -o history
+
+# Create the 'customer-key' key
+vault write -f lob_a/workshop/transit/keys/customer-key
+
+exit 0
