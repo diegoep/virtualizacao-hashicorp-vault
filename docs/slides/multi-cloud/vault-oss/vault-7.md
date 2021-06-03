@@ -124,7 +124,7 @@ class: compact
 ---
 class:compact
 # Configurando Roles para o MySQL
-#### Rode este comando para configurar uma rola para o MySQL:
+#### Rode este comando para configurar uma role para o MySQL:
 ```sql
 vault write lob_a/workshop/database/roles/workshop-app-long \
     db_name=wsmysqldatabase \

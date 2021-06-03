@@ -67,8 +67,7 @@ name: enabling-secrets-engines
 * Paths alternativos podem ser especificados para múltiplas instâncias:<br> `vault secrets enable -path=aws-east aws`
 * Paths personalizados devem ser estepecificados para nos comnados da CLI e chamadas da API:<br>
 `vault write aws-east/config/root`<br>
-instead of<br>
-`vault write aws/config/root`
+ao invés de `vault write aws/config/root`
 
 ???
 
